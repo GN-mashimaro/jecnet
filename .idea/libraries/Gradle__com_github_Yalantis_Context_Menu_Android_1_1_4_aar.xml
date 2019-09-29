@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Yalantis:Context-Menu.Android:1.1.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Context-Menu.Android-1.1.4.aar/bd7f2ce3dec3066882bb3fca80a17e57/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Context-Menu.Android-1.1.4.aar/bd7f2ce3dec3066882bb3fca80a17e57/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Yalantis/Context-Menu.Android/1.1.4/5817d0f119590836874e5fcdd8c99a0855a73b9a/Context-Menu.Android-1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

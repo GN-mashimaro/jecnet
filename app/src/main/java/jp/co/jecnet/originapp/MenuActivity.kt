@@ -90,14 +90,14 @@ class MenuActivity : AppCompatActivity() {
         )
 
         contextMenuDialogFragment = ContextMenuDialogFragment.newInstance(menuParams).apply {
-            menuItemClickListener = { view, position ->
+            menuItemClickListener = { _, position ->
                 Toast.makeText(
                         this@MenuActivity,
                         "Clicked on position: $position",
                         Toast.LENGTH_SHORT
                 ).show()
             }
-            menuItemLongClickListener = { view, position ->
+            menuItemLongClickListener = { _, position ->
                 Toast.makeText(
                         this@MenuActivity,
                         "Long clicked on position: $position",

@@ -40,42 +40,32 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
 
-        android:orientation="horizontal">
-
-        <com.beardedhen.androidbootstrap.BootstrapButton
-            android:id="@+id/leftbutton"
-            android:layout_width="wrap_content"
+        <ImageView
+            android:id="@+id/main_imageview"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:text="前の日"
-            app:bootstrapBrand="info"
-            app:bootstrapSize="lg"
-            app:buttonMode="regular"
-            app:roundedCorners="false"
-            app:showOutline="true" />
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            tools:srcCompat="@tools:sample/avatars[0]" />
 
-        <com.beardedhen.androidbootstrap.BootstrapButton
-            android:id="@+id/rigthbutton"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/main_cooking_date"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:text="次の日"
+            android:textSize="24sp" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/main_cooking_memo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             app:bootstrapBrand="info"
-            app:bootstrapSize="lg"
-            app:buttonMode="regular"
-            app:roundedCorners="false"
-            app:showOutline="true" />
+            app:bootstrapSize="md" />
+
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
-    </LinearLayout>
 
 </LinearLayout>
